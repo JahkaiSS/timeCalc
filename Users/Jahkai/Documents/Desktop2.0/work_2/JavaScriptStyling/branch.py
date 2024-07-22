@@ -15,6 +15,9 @@ while run:
             pygame.quit()
             exit()
     screen.fill((100,101,109))
+
     pygame.draw.rect(screen,"red",(0,0,100,100),0)
+    pygame.draw.circle(screen,"blue",[200,200],100,0)
+
     pygame.display.update()
     clock.tick(60)
