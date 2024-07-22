@@ -8,7 +8,7 @@ screen = pygame.display.set_mode((600,600))
 pygame.display.set_caption('branching')
 
 clock = pygame.time.Clock()
-
+print("hello")
 run = True
 while run:
     for event in pygame.event.get():
